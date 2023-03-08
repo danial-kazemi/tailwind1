@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "watch" : "npx tailwindcss -i ./src/assets/css/style.css -o ./src/dist/main.css --watch",
+    "build" : "npx tailwindcss -i ./src/assets/css/style.css -o ./src/dist/main.css --watch --minify",
+    "start" : "live-server ./src --port=8888"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
